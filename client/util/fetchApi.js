@@ -38,14 +38,6 @@ const fetchApi = (options) => {
     }
 }
 
-// export const gpoLog = data => {
-//     fetchJson({
-//         url: 'www.xxx.com',
-//         type: 'POST',
-//         data
-//     });
-// }
-
 // 请求成功处理
 function resHandler(res, options) {
     if (res.status && res.status != 200) {
