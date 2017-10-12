@@ -1,0 +1,23 @@
+@import '../core/index.scss';
+.index-page{
+	.logo{
+		width:100%;
+		img{
+			width:100%;
+		}
+	}
+	.btn{
+		width:80%;
+		hieght:r(42);
+		border-radius:r(5);
+		color:#fff;
+		font-size:r(20);
+		text-align: center;
+		line-height:r(42);
+		background:#09f;
+		margin:r(10) auto;
+		&:active{
+			background:#08f;
+		}
+	}
+}
